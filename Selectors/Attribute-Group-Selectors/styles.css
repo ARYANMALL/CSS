@@ -1,0 +1,37 @@
+h1,h2{
+    color:brown;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+    font-weight:bolder;
+}
+            /* Attribute Selector: Select list items with data-done="true" */
+            li[data-done="true"] {
+                text-decoration: none;
+                color: purple;
+            }
+
+                /* Attribute Selector: Select list items with data-done="false" */
+            li[data-done="false"]{
+                text-decoration:line-through;
+                color: blue;
+
+            }       
+
+            /* Group Selector: Style high priority tasks */
+            li[data-priority="high"] {
+                font-weight: bold;
+                color: red;
+            }
+
+            /* Group Selector: Style medium priority tasks */
+            li[data-priority="medium"] {
+                font-weight: bold;
+                color: orange;
+            }
+
+            /* Group Selector: Style low priority tasks */
+            li[data-priority="low"] {
+                font-weight: normal;
+                color: green;
+            }

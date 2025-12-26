@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#main-title{
+    color: green;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+
+}
+.text-content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    line-height: 1.6;
+    padding:10px 20px;
+}
+.intro{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aqua;
+    line-height: 1.8;
+    padding:10px 20px;
+}
+.highlight{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius:100px;
+}
