@@ -1,0 +1,32 @@
+/*Element selector*/
+p{
+    color:purple;
+    font-size:14px;
+    margin:5px 5;
+    
+}
+/*Class selector*/
+.intro{
+    font-size:18px;
+    color:navy;
+    margin-bottom:15px;
+}
+/*ID selector*/
+#main-title{
+    text-align:center;
+    color:tomato;
+    text-decoration:underline;
+    text-decoration-color:black;
+    margin-bottom:30px;
+}
+
+div button{
+    background-color:lightgray;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top:10px;
+    font-weight:bold;
+    color:red;
+}
