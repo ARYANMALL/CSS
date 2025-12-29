@@ -1,0 +1,94 @@
+/*Universal*/
+*{
+    margin:0;
+    padding:0;
+}
+/*Type Selector*/
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height:1.6;
+    background-color:white;
+    color:black;
+}
+/*Id Selector*/
+#main-header{
+    background-color:purple;
+    color:white;
+    text-align:center;
+    padding:10px 20px;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:24px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Class Selector*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    border-radius:10px;
+    box-shadow:0 0 10px rgb(177, 5, 5);
+    padding:20px;
+    background-color:#4ca2c12d;
+}
+/*Attribute Selector*/
+[data-category="Technology"]{
+    font-style: italic;
+    font-weight:900;
+    color:red;
+}
+/*Descendant Selector*/
+.post-content p{
+    margin-bottom:15px;
+    color:rgb(18, 221, 66);
+    font-weight:bold;
+    font-family:monospace
+
+}
+.post-content ul{
+    margin-left:20px;
+    margin-bottom:15px;
+    color:rgb(228, 10, 97);
+    font-weight:bold;
+    font-family:monospace;
+}
+.post-meta > span{
+    display:inline-block;
+    margin-right:15px;
+    font-weight:bold;
+}
+/*Grouping Selector*/
+a:hover{     /*for coloring links on hover*/
+    color:orange;
+}
+p:hover{
+    color:orangered;   /*for coloring paragraphs on hover*/
+}
+ul:hover{
+    color:rgb(48, 10, 220);   /*for coloring unordered lists on hover*/
+}
+h2:hover{
+    color:skyblue;
+}
+a{
+    color:rgb(228, 6, 253);
+    text-decoration:underline;;
+}
+.post-content p::first-letter{
+    font-size:40px;
+    font-weight:bold;
+    padding-right:10px;
+    
+}
+footer{
+    text-align:center;
+    padding:10px;
+    background-color:purple;
+    color:white;
+    margin-top:20px;
+    font-size:18px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
