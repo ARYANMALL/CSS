@@ -1,0 +1,35 @@
+.container{
+    background-color:rgba(90, 235, 12, 0.145);
+    height:100vh;   /*vh-viewport height*/
+    border:4px solid rgba(11, 203, 228, 0.557);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;;
+
+}
+.box{
+    height:150px;
+    background-color:rgba(8, 213, 232, 0.821);
+    margin:10px;
+}
+.box1{
+    align-self: flex-end;
+    flex-grow:1;
+}
+.box2{
+    align-self:first baseline;
+    flex-grow:2;
+}
+.box3{
+    align-self:self-end;
+    flex-grow:3;
+}
+.box4{
+    align-self:normal;
+    flex-grow:4;
+}
+.box5{
+    align-self:last baseline;
+    flex-grow:5;
+}
