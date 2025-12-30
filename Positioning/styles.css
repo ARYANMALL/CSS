@@ -1,0 +1,29 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.4;
+    margin:0;
+    padding:20px;
+}
+.container{
+    border:5px solid red;
+    border-radius:20px;
+    padding:10px 20px;
+    height:200px;
+    margin:10px;
+}
+.box{
+    width:70px;
+    height:20px;
+    background-color:green;
+    color:aqua;
+}
+.static{
+    position: static;
+     top:120px;
+     left:120px;
+}
+.absolute{
+    position:absolute;
+    top:120px;
+    left:0;
+}
