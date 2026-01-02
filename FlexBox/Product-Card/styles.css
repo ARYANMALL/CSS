@@ -1,0 +1,84 @@
+ body{
+    font-family:cursive;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    background-color:aliceblue;
+ }
+ .product-card{
+    background-color:rgb(255, 255, 255);
+    box-shadow:10px 20px 30px rgba(0,0,0,1);
+    width:300px;
+    border:none;
+    border-radius:20px;
+    position:relative;
+    overflow:hidden
+
+ }
+ .product-image{
+    width:300px;
+    object-fit:cover;
+ }
+ .product-info{
+    padding:20px;
+ }
+ .product-title{
+    margin:0 5px;
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(16, 16, 16);
+ }
+ .product-title:hover{
+    color:rgb(161, 158, 18);
+ }
+ .product-price{
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(106, 11, 58);
+    margin-bottom:15px;
+ }
+ .product-price:hover{
+    color:red;
+ }
+  .product-description{
+    color:rgb(3, 141, 247);
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size:medium;
+ }
+ .product-description:hover{
+    color:green;
+ }
+ .btn-add-to-cart{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    background-color:chocolate;
+    border:none;
+    color:white;
+    padding:12px 0;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:6px;
+    box-shadow:0 2px 4px rgba(0,0,0,1);
+ }
+ .btn-add-to-cart:hover{
+    color:blueviolet;
+ }
+
+ .discount-tag{
+    position:absolute;
+    color:white;
+    top:16px;
+    right:-30px;
+    background-color:rgba(233, 5, 5, 0.932);
+    padding:1px 30px;
+    font-weight:bold;
+    box-shadow:10px 20px 30px rgba(0,0,0,1);
+    font-size:14px;
+    transform:rotate(45deg);
+    font-family:serif;
+ }
