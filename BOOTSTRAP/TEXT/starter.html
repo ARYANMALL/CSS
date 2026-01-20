@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Bootstrap CSS CDN -->
+        <link 
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+         rel="stylesheet" 
+         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+         crossorigin="anonymous"/>
+         <title>Bootstrap Text Utilities</title>
+    </head>
+    <body>
+        <>
+            <h2>Bootstrap Text Utilities</h2>
+
+            <!-- Text Alignment Classes -->
+
+            <div class="bg-primary mt-5 mb-4 p-3 text-white">  <!--mt-margintop, mb-marginbottom, p-padding, text-white-textcolor, bg-primary-backgroundcolor-->
+                <p class="text-start">Text aligned to start.</p>
+                <p class="text-center">Text aligned to center.</p>
+                <p class="text-end">Text aligned to end.</p>
+            </div>
+
+            <!-- Text Wrapping and Truncation Classes -->
+
+            <div class="bg-info mt-3 p-3">
+                <p class="text-wrap">
+                    This is a very long string of text that should wrap to the next line 
+                    if it exceeds the width of the container which it should eventually do
+                    so we can see how the text wrapping behaves in Bootstrap.
+                </p>
+                <p class="text-nowrap">
+                    This is a very long string of text that should not wrap to the next line 
+                    even if it exceeds the width of the container which it should eventually do
+                    so we can see how the text wrapping behaves in Bootstrap.
+                </p>
+                <p class="text-nonwrap" >
+                    This text will not wrap onto a new line.
+                </p>
+
+                <p class="text-truncate">
+                    This is a long text that should be truncated with an ellipsis if it exceeds the width of its container.
+                </p>
+            </div>
+
+            <!-- Text Transform Classes -->
+
+            <div class="bg-warning mt-5 p-3 mb-5">
+                <p class="text-lowercase">
+                    THIS TEXT WILL BE CONVERTED TO LOWERCASED.
+                </p>
+
+                <p class="text-uppercase">
+                    this text will be converted to UPPERCASED.
+                </p>
+                <p class="text-capitalize">
+                    this text will have each word capitalized.
+                </p>
+            </div>
+
+            <!--Text coloring -->
+            <div class="mt-5">
+                <p class="text-primary">
+                    This text is primary colored.
+
+                </p>
+
+                <p class="text-secondary">
+                    This text is secondary colored.
+                </p>
+
+                <p class="text-success">
+                    This text is success colored.
+                </p>
+
+                <p class="text-danger">
+                    This text is danger colored.
+                </p>
+
+                <p class="text-warning">
+                    This text is warning colored.
+                </p>
+
+                <p class="text-info">
+                    This text is info colored.
+                </p>
+
+                <p class="text-light bg-dark">
+                    This text is light colored.
+                </p>
+
+                <p class="text-dark">
+                    This text is dark colored.
+                </p>
+
+                <p class="text-body">
+                    This text is body colored.
+                </p>
+
+                <p class="text-muted">
+                    This text is muted colored.
+                </p>
+
+                <p class="text-white bg-black">
+                    This text is white colored.
+                </p>
+
+                <p class="text-black-50">
+                    This text is black 50% colored.
+                </p>    
+
+                <p class="text-white-50 bg-danger">
+                    This text is white 50% colored.
+                </p>
+
+            </div>
+
+            <!--Font weight and italics-->
+            <div class="bg-success mt-5">
+                <p class="fw-light">
+                    This text is light font weight.
+                </p>
+
+                <p class="fw-normal">
+                    This text is normal font weight.
+                </p>
+
+                <p  class="fw-bold">
+                    This text is bold font weight.
+                </p>
+
+                <p class="fw-bolder">
+                    This text is bolder font weight.
+                </p>
+
+                <p class="fw-lighter">
+                    This text is lighter font weight.
+                </p>
+
+                <p class="fst-italic">
+                    This text is italic font style.
+                </p>
+
+                <p class="fst-normal">
+                    This text is normal font style.
+                </p>
+            </div>
+
+            <!--Font size-->
+            <div class="bg-warning mt-5 ">
+                <p class="fs-1">
+                    This text is font size 1.
+                </p>
+
+                <p class="fs-2">
+                    This text is font size 2.
+                </p>
+
+                <p class="fs-3">
+                    This text is font size 3.
+                </p>
+
+                <p class="fs-4">
+                    This text is font size 4.
+                </p>
+
+                <p class="fs-5">
+                    This text is font size 5.
+                </p>
+
+                <p class="fs-6">
+                    This text is font size 6. 
+                </p>
+
+            </div>
+
+            <!--Display Headings-->
+            <div class="bg-info mt-5 mb-5 p-3">
+                <h2>Display Headings and Font Size Utilities</h2>
+                <h1 class="display-1">Display Heading 1</h1>
+                <h1 class="display-2">Display Heading 2</h1>
+                <h1 class="display-3">Display Heading 3</h1>
+                <h1 class="display-4">Display Heading 4</h1>
+                <h1 class="display-5">Display Heading 5</h1>
+                <h1 class="display-6">Display Heading 6</h1>
+            </div>
+            
+            <div>
+                <h1>Daily Motivation</h1>
+
+                <blockquote class="blockquote">
+                    <p>
+                        "This only way to do great work is to love what you do." - Steve Jobs
+                    </p>
+                    <footer class="blockquote-footer">Someone famous in <cite>Source Title</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </body>
+</html>
